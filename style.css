@@ -11,7 +11,6 @@ body{
     width: 100%;
     height: auto;
     background-color: rgb(1, 63, 58);
-    font-family: Poppins;
 }
 nav{
    background: transparent;
@@ -31,6 +30,7 @@ nav ul li{
     margin-right: 4vw;
 }
 nav ul li a{
+    font-family: "Poppins", sans-serif;
     color: white;
     font-size: 1vw;
 }
@@ -45,12 +45,14 @@ nav ul li a b:hover{
     font-size: 2.5vw;
 }
 nav button{
+    font-family: "Poppins", sans-serif;
     margin-left: 26vw;
     background: transparent;
     width: 11%;
     border-radius: 12px;
     color: white;
     font-size: 1vw;
+    
 }
 nav button:hover{
     border-color: pink;
@@ -63,6 +65,7 @@ nav button:hover{
     display: flex;
 }
 .S1left{
+    font-family: "Poppins", sans-serif;
     font-size: 3vw;
     margin-right: 6vw;
     color: white;
@@ -75,11 +78,13 @@ nav button:hover{
     justify-content: space-between;
 }
 .S1right p1{
+    font-family: "Poppins", sans-serif;
     background-color: skyblue;
     color: skyblue;
     font-size: 0.2vw;
 }
 .S1right p2{
+    font-family: "Poppins", sans-serif;
     height: auto;
     color: white;
     font-size: 1vw;
