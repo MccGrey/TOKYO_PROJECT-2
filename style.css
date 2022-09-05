@@ -1,12 +1,26 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+:root {
+  --color-primary: rgb(5, 43, 49);
+  --color-success: rgb(9, 70, 82);
+  --color-danger: rgb(238, 82, 82);
+  --color-light: rgb(199, 232, 238);
+  --color-black: rgb(4, 25, 29);
+  --color-bg: rgb(33, 155, 177);
+  --color-bg1: rgb(4, 36, 41);
+  --color-bg2: rgb(1, 14, 17);
+
+  --transition: all 400ms ease-in;
 }
 
 /* ====================================== OBIORA =========================================*/
-
-
 
 /* ======================================= OTUNBA ========================================*/
 .build-team {
@@ -17,3 +31,7 @@
 
 
 /* ========================================= MCC_GREY =====================================*/
+
+
+/* ========================================= MCC_GREY =====================================*/
+
