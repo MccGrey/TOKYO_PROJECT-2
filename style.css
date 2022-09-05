@@ -26,8 +26,99 @@
 .build-team {
     width: 100%;
     display: flex;
+    background: var(--color-primary);
+    justify-content: space-between;
     
 }
+
+.build-team .build-box {
+    font-size: 30px;
+    color: var(--color-light);
+    font-style: normal;
+    line-height: 48px;
+}
+
+.build-experience {
+    width: 100%;
+    display: block;
+}
+
+.experience-box {
+    width: 100%;
+    display: flex;
+}
+
+.experience-box img {
+    height: 40px;
+    background: var(--color-bg);
+}
+
+.experience-box h3 {
+    font-size: 18px;
+    color:var(--color-danger);
+    font-style: normal;
+}
+
+.experience-box p {
+    font-size: 12px;
+    color: var(--color-light);
+}
+
+.implement-box {
+    width: 100%;
+    display: flex;
+}
+
+.implement-box img {
+    height: 40px;
+}
+
+.implement-box h3 {
+    font-size: 18px;
+    color:var(--color-danger);
+    font-style: normal;
+}
+
+.implement-box p {
+    font-size: 12px;
+    color: var(--color-light);
+}
+
+.enhance-box {
+    width: 100%;
+    display: flex;
+}
+
+.enhance-box img {
+    height: 40px;
+}
+
+.enhance-box h3 {
+    font-size: 18px;
+    color:var(--color-danger);
+    font-style: normal;
+}
+
+.enhance-box p {
+    font-size: 12px;
+    color: var(--color-light);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* ========================================= MCC_GREY =====================================*/
