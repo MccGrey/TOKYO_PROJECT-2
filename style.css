@@ -46,7 +46,7 @@ a{
   font-size: 5vw;
 }
 .button{
-  border-bottom: 1px #444 solid;
+  border-bottom: 1px var(--color-danger) solid;
 }
 
 /*Mobile nav menu*/
@@ -150,7 +150,7 @@ a{
       margin-left: 9vw;
   }
   .logo > a{
-      font-size: 3.2vw;
+      font-size: 3vw;
   }
   .logo > a:hover{
       font-size: 3.6vw;
@@ -179,7 +179,8 @@ a{
   }
   .menu li.button{
       padding-right: 0;
-      margin-left: 43vw;
+      margin-left: 37vw;
+      margin-right: 10vw;
   }
 }
 /*styling section1 for desktop view*/
@@ -188,26 +189,26 @@ a{
   justify-content: center;
   align-items: center;
   display: flex;
-  padding: 10px;
+  padding: 5px;
 }
 .S1left{
   font-family: "Poppins", sans-serif;
-  font-size: 3.1vw;
-  margin-right: 4vw;
+  font-size: 2.5vw;
+  margin-right: 16vw;
 }
 .S1left h1{
   color: white;
 }
 .S1left h1 b span{
-  color: pink;
+  color: var(--color-danger);
 }
 .S1right{
   display: block;
   justify-content: center;
 }
 .S1right P1{
-  background-color: skyblue;
-  color: skyblue;
+  background-color: var(--color-light);
+  color: var(--color-light);
   font-size: 0.3vw;
 }
 .S1right p2{
@@ -215,15 +216,18 @@ a{
   height: auto;
   color: white;
   font-size: 1.3vw;
-  font-size: 1.5vw;
 }
 
 /*Styling section1 for tablet view*/
 @media screen and (max-width:799px) {
   .S1left{
-      font-size: 3.3vw;
-    }
-  }
+        font-size: 3.3vw;
+      }
+  .S1right p2{
+        font-size: 1.5vw;
+  } 
+}
+
 
 /*Styling section1 for mobile view*/
 @media screen and (max-width:499px){
@@ -241,7 +245,7 @@ a{
       font-size: 0.4vw;
     }
   .S1right p2{
-      font-size: 2vw;
+      font-size: 2.53vw;
   }
 }
 /* ======================================= OTUNBA ========================================*/
