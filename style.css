@@ -248,27 +248,34 @@ a{
 .build-team {
     width: 100%;
     display: flex;
-    background: var(--color-primary);
+    background: var(--color-bg1);
     justify-content: space-between;
-    margin: 15px;
-    padding: 15px;
+    margin-top: 70px;
 }
 
 .build-team .build-box {
+    width: 60%;
     font-size: 30px;
-    color: var(--color-light);
+    color: white;
     font-style: normal;
     line-height: 48px;
+    margin-left: 5rem;
+}
+
+.build-team .build-box h1 {
+    margin: 5rem;
 }
 
 .build-experience {
-    width: 100%;
+    width: 50%;
     display: block;
+    margin: 5rem;
 }
 
 .experience-box {
     width: 100%;
     display: flex;
+    margin: 2rem;
 }
 
 .experience-box img {
@@ -280,16 +287,20 @@ a{
     font-size: 18px;
     color:var(--color-danger);
     font-style: normal;
+    padding-left: 25px;
 }
 
 .experience-box p {
     font-size: 12px;
     color: var(--color-light);
+    padding-left: 25px;
+    padding-top: 10px;
 }
 
 .implement-box {
     width: 100%;
     display: flex;
+    margin: 2rem;
 }
 
 .implement-box img {
@@ -300,16 +311,20 @@ a{
     font-size: 18px;
     color:var(--color-danger);
     font-style: normal;
+    padding-left: 25px;
 }
 
 .implement-box p {
     font-size: 12px;
     color: var(--color-light);
+    padding-left: 25px;
+    padding-top: 10px;
 }
 
 .enhance-box {
     width: 100%;
     display: flex;
+    margin: 2rem;
 }
 
 .enhance-box img {
@@ -320,11 +335,14 @@ a{
     font-size: 18px;
     color:var(--color-danger);
     font-style: normal;
+    padding-left: 17px;
 }
 
 .enhance-box p {
     font-size: 12px;
     color: var(--color-light);
+    padding-left: 17px;
+    padding-top: 10px;
 }
 
 
