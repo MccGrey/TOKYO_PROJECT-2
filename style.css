@@ -28,7 +28,8 @@
     display: flex;
     background: var(--color-primary);
     justify-content: space-between;
-    
+    margin: 15px;
+    padding: 15px;
 }
 
 .build-team .build-box {
