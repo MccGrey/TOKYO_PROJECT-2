@@ -179,7 +179,8 @@ a{
   }
   .menu li.button{
       padding-right: 0;
-      margin-left: 43vw;
+      margin-left: 33vw;
+      margin-right: 10vw;
   }
 }
 /*styling section1 for desktop view*/
@@ -221,9 +222,13 @@ a{
 /*Styling section1 for tablet view*/
 @media screen and (max-width:799px) {
   .S1left{
-      font-size: 3.3vw;
-    }
-  }
+        font-size: 3.3vw;
+      }
+  .S1right p2{
+        font-size: 2vw;
+  } 
+}
+
 
 /*Styling section1 for mobile view*/
 @media screen and (max-width:499px){
@@ -241,7 +246,7 @@ a{
       font-size: 0.4vw;
     }
   .S1right p2{
-      font-size: 2vw;
+      font-size: 2.53vw;
   }
 }
 /* ======================================= OTUNBA ========================================*/
