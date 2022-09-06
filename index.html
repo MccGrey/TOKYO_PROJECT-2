@@ -24,32 +24,135 @@
   </head>
   <body>
     <!--==============================BLACK PANTHER================================-->
-    <!--HTML code for the nav bar of the page-->
+
+    <!--==============NAVBAR SECTION======================-->
     <nav>
-      <ul>
-        <li><a href="#"><b>myteam</b></a></li>
-        <li><a href="#">home</a></li>
-        <li><a href="#">about</a></li>
-      </ul>
-      <a href="#"><button>contact us</button></a>
+      <div class="nav__container">
+        <a href="index.html" class="nav__logo"><h1>myTeam</h1></a>
+        <ul class="nav__links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+        <ul class="nav__links-2">
+          <li class="contact-btn"><button>CONTACT US</button></li>
+        </ul>
+        <button class="nav__toggle-btn" id="nav__toggle-open">
+          <i class="uil uil-bars"></i>
+        </button>
+        <button class="nav__toggle-btn" id="nav__toggle-close">
+          <i class="uil uil-times"></i>
+        </button>
+      </div>
     </nav>
-    <!--HTML code for the first section of the page-->
-    <div class="section1">
-      <div class="S1left">
-        <h1><b>Find the <br> best <span>talent</span></b></h1>
-      </div>
-      <div class="S1right">
-        <p1>lightblueawaywegohahsgsgfsafastsswgs</p1><br><br><br>
-        <p2>Finding the right people and building high <br> performing team can be hard. 
-            Most companies <br> aren't tapping into the aboundance of global talent. <br>
-            we're about to change that.
-        </p2>
-      </div>
-    </div>
+    <!--==============END OF NAVBAR SECTION======================-->
     <!--================================OTUNBA=========================================-->
 
     <!--=================================MCC_GREY========================================-->
 
+    <!--================TESTIMONIAL SECTION====================-->
+    <section class="container testimonial-container">
+      <h2>
+        Delivering real results for top <br />
+        companies. some of our <span>success stories.</span>
+      </h2>
+      <div class="testimonials">
+        <div class="testimonial-content">
+          <p>
+            "The team perfectly fit the specialized skill set required. They
+            focused on the most essential features helping us launch the
+            platform eight months faster than planned."
+          </p>
+          <h4>
+            Katy Baker
+            <br />
+            <span>Product Manager at Bookmark</span>
+          </h4>
+          <img src="./img/test1.jpg" alt="" />
+        </div>
+
+        <div class="testimonial-content">
+          <p>
+            "We neded to automate our entire onboarding process. The team came
+            in and built out the whole journey. Since going live, user retention
+            has gone through the roof!"
+          </p>
+          <h4>
+            Alysha Reese
+            <br />
+            <span>Founder of manage</span>
+          </h4>
+          <img src="./img/test2.jpg" alt="" />
+        </div>
+
+        <div class="testimonial-content">
+          <p>
+            "Amazing. our team helped us build an app that delivered a new
+            experience for hiring a physio. the launch was an instant success
+            with 100k downloads in the first month."
+          </p>
+          <h4>
+            Arthur Clarke
+            <br />
+            <span>Co-founder of Myphysio</span>
+          </h4>
+          <img src="./img/test3.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!--==============END OF TESTIMONIAL SECTION======================-->
+
+    <!--==============GET STARTED SECTION SECTION======================-->
+    <section class="container get-started">
+      <div class="get-started-content">
+        <h3>Ready to get started?</h3>
+        <button>CONTACT US</button>
+      </div>
+    </section>
+    <!--==============END OF GET STARTED SECTION======================-->
+
+    <!--==============FOOTER SECTION======================-->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <h3>myTeam</h3>
+          <p class="footer-links">
+            <a href="index.html" class="active">Home</a>
+
+            <a href="about.html">About</a>
+          </p>
+        </div>
+
+        <div class="footer-center">
+          <p class="address">
+            987 Hillcrest lane <br />
+            Invine, CA <br />
+            California 92714 <br />
+            Call Us: 949-7432
+          </p>
+        </div>
+
+        <div class="footer-right">
+          <div class="footer-icons">
+            <a
+              href="https://www.linkedin.com/in/cornelius-aguonye-5a6ab420b"
+              target="_blank"
+              ><i class="uil uil-linkedin"></i
+            ></a>
+            <a href="https://www.instagram.com/mcc_grey" target="_blank"
+              ><i class="uil uil-instagram-alt"></i
+            ></a>
+            <a href="https://www.twitter.com/browncheese6" target="_blank"
+              ><i class="uil uil-twitter"></i
+            ></a>
+          </div>
+
+          <div class="footer_copyright">
+            <small>Copyright &copy; 2022, All Rights Reserved</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--==============END OF FOOTER SECTION======================-->
     <script src="./app.js"></script>
   </body>
 </html>
