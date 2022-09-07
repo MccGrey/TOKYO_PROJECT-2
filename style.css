@@ -177,7 +177,7 @@ header {
 }
 
 .build-team .build-box .header_horizon2 {
-  border: 2px solid var(--color-bg);
+  border: 2px solid var(--color-danger);
   height: 0.1rem;
   width: 4rem;
   margin-bottom: 2rem;
