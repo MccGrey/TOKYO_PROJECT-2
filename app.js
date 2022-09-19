@@ -5,6 +5,7 @@ const openNavBtn = document.querySelector("#nav__toggle-open");
 const closeNavBtn = document.querySelector("#nav__toggle-close");
 
 //=====================================FUNCTION FOR OPEN NAVBAR=================================================
+// function to open dropdown
 const openNav = () => {
   nav.style.display = "flex";
   openNavBtn.style.display = "none";
@@ -14,6 +15,7 @@ const openNav = () => {
 openNavBtn.addEventListener("click", openNav);
 
 //========================================FUNCTION FOR CLOSE NAVBAR=================================================
+//function to close dropdown
 const closeNav = () => {
   nav.style.display = "none";
   openNavBtn.style.display = "inline-block";
